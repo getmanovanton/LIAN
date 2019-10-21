@@ -265,6 +265,11 @@ span {
     }
   }
 }
+.mobile-header-active{
+  a{
+    color: #000000;
+  }
+}
 @media (max-width: 1176px) {
   .header-logo{
     margin-left: 10px;

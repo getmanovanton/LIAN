@@ -527,6 +527,9 @@ header {
       border-radius: 50%;
       margin: 3.5px auto 0; }
 
+.mobile-header-active a {
+  color: #000000; }
+
 @media (max-width: 1176px) {
   .header-logo {
     margin-left: 10px; } }
