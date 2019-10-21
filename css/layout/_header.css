@@ -1,0 +1,148 @@
+body {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  color: #ffffff; }
+
+img {
+  max-width: 100%;
+  width: auto; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: normal; }
+
+button {
+  outline: none;
+  cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.countainer {
+  max-width: 940px;
+  margin: 0 auto; }
+
+header {
+  position: relative; }
+  header .header-photo {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    header .header-photo .img1 {
+      position: absolute; }
+    header .header-photo .img2 {
+      position: absolute; }
+    header .header-photo .img3 {
+      position: absolute; }
+  header .head {
+    position: relative;
+    padding-top: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10; }
+    header .head .logo {
+      font-size: 28px; }
+    header .head .main-menu {
+      display: block;
+      margin: auto 0; }
+      header .head .main-menu ul {
+        margin: auto 0; }
+        header .head .main-menu ul .active:after {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 3px;
+          background-color: #FFFFFF;
+          margin-top: 9px; }
+        header .head .main-menu ul li {
+          position: relative;
+          margin-left: 20px;
+          padding: 12px 10px 0;
+          -webkit-transition: all .5s ease;
+          -o-transition: all .5s ease;
+          transition: all .5s ease;
+          border-radius: 5px; }
+          header .head .main-menu ul li:hover {
+            background-color: #54aecf;
+            -webkit-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            transition: all .5s ease; }
+            header .head .main-menu ul li:hover .dropdown {
+              padding: 4px 0;
+              height: 141px;
+              -webkit-transition: all .5s ease;
+              -o-transition: all .5s ease;
+              transition: all .5s ease; }
+          header .head .main-menu ul li img {
+            margin-left: 7px; }
+          header .head .main-menu ul li .dropdown {
+            overflow: hidden;
+            font-weight: normal;
+            position: absolute;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            font-size: 12px;
+            left: -38px;
+            top: 40px;
+            line-height: 10px;
+            display: block;
+            -webkit-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            transition: all .5s ease;
+            height: 0; }
+            header .head .main-menu ul li .dropdown li {
+              padding: 0;
+              line-height: 35px;
+              margin: 0;
+              height: 35px;
+              width: 152px;
+              -webkit-transition: all .5s ease;
+              -o-transition: all .5s ease;
+              transition: all .5s ease;
+              border-radius: 0; }
+              header .head .main-menu ul li .dropdown li:hover {
+                background-color: #21a5c1;
+                -webkit-transition: all .5s ease;
+                -o-transition: all .5s ease;
+                transition: all .5s ease; }
+                header .head .main-menu ul li .dropdown li:hover a {
+                  color: #FFFFFF;
+                  -webkit-transition: all .5s ease;
+                  -o-transition: all .5s ease;
+                  transition: all .5s ease; }
+            header .head .main-menu ul li .dropdown a {
+              padding-left: 23px;
+              color: black;
+              -webkit-transition: all .5s ease;
+              -o-transition: all .5s ease;
+              transition: all .5s ease; }
+  header .head-text {
+    z-index: 100;
+    position: absolute;
+    text-align: center; }
+    header .head-text .main-text {
+      font-size: 60px;
+      font-weight: bold; }
+    header .head-text .main-text2 {
+      font-size: 18px; }

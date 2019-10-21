@@ -1,0 +1,69 @@
+.swiper-wrap {
+  background-color: #f4f4f4;
+  position: relative; }
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide {
+    padding-top: 100px;
+    max-width: 940px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-logos {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-logos .block-ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #34cf75;
+        color: #FFFFFF;
+        font-size: 32px;
+        border-radius: 60px;
+        width: 200px;
+        height: 200px; }
+        .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-logos .block-ul .ul {
+          font-weight: bold;
+          line-height: 47px; }
+      .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-logos .block-ux {
+        margin-left: -53px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: rgba(237, 237, 237, 0.4);
+        color: #ff605f;
+        font-size: 32px;
+        border-radius: 60px;
+        width: 200px;
+        height: 200px; }
+        .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-logos .block-ux .ux {
+          font-weight: bold;
+          line-height: 47px; }
+    .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-text {
+      max-width: 436px; }
+      .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-text .text-h2 {
+        line-height: 40px;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+      .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-text .text-p {
+        line-height: 30px;
+        color: #666666;
+        font-size: 16px;
+        font-family: "Open Sans", "sans-serif"; }
