@@ -575,24 +575,24 @@ header {
     width: 8px;
     height: 8px; }
   .slider .swiper-pagination-bullet-active:after {
-    width: 4px;
-    height: 4px;
-    margin: 2px auto 0; } }
+    display: none; } }
 
 @media (max-width: 590px) {
-  .slider .swiper-slide-1-h2 {
-    font-size: 18px;
-    margin-bottom: 8px;
-    padding: 5px 10px; }
-  .slider .swiper-slide-1-p {
-    font-size: 9px; }
-  .slider .swiper-slide-2-h2 {
-    font-size: 20px;
-    margin-bottom: 8px;
-    padding: 5px 10px; }
-  .slider .swiper-slide-2-p {
-    line-height: 15px;
-    font-size: 9px; } }
+  .slider {
+    margin-bottom: 0; }
+    .slider .swiper-slide-1-h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      padding: 5px 10px; }
+    .slider .swiper-slide-1-p {
+      font-size: 9px; }
+    .slider .swiper-slide-2-h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      padding: 5px 10px; }
+    .slider .swiper-slide-2-p {
+      line-height: 15px;
+      font-size: 9px; } }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**

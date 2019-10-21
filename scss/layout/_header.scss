@@ -336,15 +336,13 @@ span {
       width: 8px;
       height: 8px;}
     .swiper-pagination-bullet-active:after {
-      width: 4px;
-      height: 4px;
-      margin: 2px auto 0;
+      display: none;
     }
   }
 }
 @media (max-width: 590px){
   .slider {
-
+  margin-bottom: 0;
     .swiper-slide-1-h2 {
       font-size: 18px;
       margin-bottom: 8px;
