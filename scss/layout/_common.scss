@@ -193,6 +193,9 @@
   box-sizing: border-box;
   margin: 0 15px 30px;
   position: relative;
+  img{
+    display: block;
+  }
 }
   .photo-add{
     position: absolute;
@@ -365,4 +368,252 @@
   .main-content .main-nav a{
     font-size: 8px;
   }
+}
+/*
+
+
+
+
+
+ABOUT HTML
+
+
+
+
+
+
+ */
+.main-about{
+  background-color: #fafafa;
+  padding-bottom: 75px;
+}
+.about-image{
+  background-image: url("../images/about-image.jpg");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  margin-bottom: 70px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.about-image-h2{
+  padding: 10px 35px;
+  font-size: 48px;
+  font-family: "Roboto Light",sans-serif;
+  background-color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  width: fit-content;
+  margin-bottom: 35px;
+}
+.about-image-p{
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto Light",sans-serif;
+  letter-spacing: 0.4em;
+  line-height: 24px;
+  text-transform: uppercase;
+
+}
+.our-story{
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.our-story-img{
+  img{
+    display: block;
+  }
+  width: 46%;
+}
+.our-story-text{
+  font-family: "Roboto Light",sans-serif;
+  width: 50%;
+display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #000000;
+}
+.our-story-text-h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 0.4em;
+}
+.our-story-text-p{
+  color: #828282;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+}
+.skills-h3{
+  font-family: "Roboto",sans-serif;
+  font-weight: bold;
+  color: #000000;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  margin: 22px 0 16px;
+
+
+}
+.skills{
+  margin-bottom: 10px;
+}
+.line1{
+  width: 90%;
+}
+.line2{
+  width: 95%;
+}
+.line3{
+  width: 50%;
+}
+.line4{
+  width: 85%;
+}
+.line1-bg, .line2-bg, .line3-bg, .line4-bg{
+  height: 10px;
+  width: 100%;
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+}
+.line1, .line2, .line3, .line4{
+  margin-left: 3px;
+  height: 2px;
+  background-color: #a1a1a1;
+  position: relative;
+  span{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    color: #FFFFFF;
+    background-color: #041608;
+    right: -38px;
+    top: -39px;
+    text-align: center;
+    line-height: 20px;
+  }
+  &:after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border: 4px solid #000000;
+    border-radius: 50%;
+    right: -4px;
+    top: -4px;
+    background-color: #FFFFFF;
+  }
+  &:before{
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: -20px;
+    border: 5px solid transparent;
+    border-left: 5px solid #041608;
+    border-top: 5px solid #041608;
+  }
+}
+.team{
+  text-align: center;
+  color: #000000;
+  font-family: "Roboto Light", sans-serif;
+}
+.team-text{
+  max-width: 612px;
+  margin: 0 auto 65px;
+  padding: 0 10px;
+}
+.team-text-h2{
+  margin-top: 100px;
+  margin-bottom: 35px;
+  font-size: 30px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+.team-text-p{
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  color: #777777;
+  letter-spacing: 0.025em;
+  line-height: 30px;
+}
+.team-persons{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.person{
+  img{
+    display: block;
+  }
+  max-width: 360px;
+  margin: 5px;
+}
+.person-text{
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 35px 58px 29px 25px;
+}
+.person-text-h2{
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.person-text-h3{
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  color: #777777;
+  letter-spacing: 0.025em;
+  margin-bottom: 20px;
+}
+.person-text-p{
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9c9c9c;
+}
+@media (max-width: 970px){
+  .our-story-img{
+    width: auto;
+    margin: 0 auto 20px;
+  }
+  .our-story-text{
+    width: 90%;
+  }
+  .our-story-text-h2{
+    text-align: center;
+  }
+  .our-story-text-p{
+    margin-bottom: 10px;
+  }
+  .our-story {
+    align-items: center;
+    flex-direction: column;}
+}
+@media (max-width: 910px) {
+  .team-persons{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 640px){
+  .skills{
+    padding-right: 30px;
+  }
+  .about-image-h2 {
+    padding: 8px 14px;
+    font-size: 21px;
+  margin-bottom: 10px;
+  }
+  .about-image-p {
+    background-color: #FFFFFF;
+    max-width: 200px;
+    color: black;
+    font-size: 12px;}
 }
