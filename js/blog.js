@@ -1,4 +1,4 @@
-let like = document.getElementsByClassName('i-like')
+let like = document.getElementsByClassName('i-like');
     like[0].onclick = function () {
             if (like[0].classList.contains('red-heart')) {
                 like[0].classList.remove('red-heart');
