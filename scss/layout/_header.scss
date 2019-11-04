@@ -101,10 +101,12 @@ span {
   right: 0;
   top: 0;
   width: 0;
-  height: 50vh;
   transition: .5s;
   padding-top: 20px;
   overflow: hidden;
+  ul{
+    flex-direction: column;
+  }
   a{
     transition: .5s;
   }
