@@ -2013,10 +2013,19 @@ contact
   }
 }
 @media screen and (max-width: 760px){
+  .send-adress {
+    width: 90%;
+  }
   .whu-we-are h2{
     margin: 10px;
   }
   .whu-we-are p{
     margin-bottom: 20px;
+  }
+  .send-mail-name{
+    flex-direction: column;
+  }
+  .send-male, .send-name{
+    width: 100%;
   }
 }
