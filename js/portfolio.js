@@ -103,17 +103,17 @@ btnPrev.onclick = function () {
 
 let socialBtn = document.getElementsByClassName("shared-btn");
 let socialSlide = document.getElementsByClassName("social-icons");
-for (let i = 0; i < socialBtn.length; i++) {
-    socialBtn[i].onclick = function () {
-        for (let l = 0; l < socialSlide.length; l++) {
-            if (socialSlide[l].classList.contains('slideRight')) {
-                socialSlide[l].classList.remove('slideRight');
-                socialSlide[l].classList.add('sliderLeft');
-            } else {
-                socialSlide[l].classList.remove('sliderLeft');
-                socialSlide[l].classList.add('slideRight');
-            }
 
+
+
+for (let i in socialBtn) {
+    socialBtn[i].onclick = function () {
+            if (socialSlide[i].classList.contains('slideRight')) {
+                socialSlide[i].classList.remove('slideRight');
+                socialSlide[i].classList.add('sliderLeft');
+            } else {
+                socialSlide[i].classList.remove('sliderLeft');
+                socialSlide[i].classList.add('slideRight');
+            }
         }
     }
-}
